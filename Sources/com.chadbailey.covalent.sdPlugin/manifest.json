@@ -1,0 +1,66 @@
+{
+  "Actions": [
+    {
+      "Icon": "public/action/images/camdisabled",
+      "Name": "Camera",
+      "States": [
+        {
+          "Image": "public/action/images/camon",
+          "Name": "On"
+        },
+        {
+          "Image": "public/action/images/camoff",
+          "Name": "Off"
+        },
+        {
+          "Image": "public/action/images/camdisabled",
+          "Name": "Disabled"
+        }
+      ],
+      "Tooltip": "Control your camera in Covalent",
+      "UUID": "com.chadbailey.covalent.cam"
+    },
+    {
+      "Icon": "public/action/images/micdisabled",
+      "Name": "Mic",
+      "States": [
+        {
+          "Image": "public/action/images/micon",
+          "Name": "On"
+        },
+        {
+          "Image": "public/action/images/micoff",
+          "Name": "Off"
+        },
+        {
+          "Image": "public/action/images/micdisabled",
+          "Name": "Disabled"
+        }
+      ],
+      "Tooltip": "Control your mic in Covalent",
+      "UUID": "com.chadbailey.covalent.mic"
+    }
+  ],
+  "SDKVersion": 2,
+  "Author": "Chad",
+  "CodePath": "server",
+  "PropertyInspectorPath": "http://localhost:3434/propertyinspector/index.html",
+  "Description": "Example description",
+  "Name": "Covalent",
+  "Icon": "public/action/images/action",
+  "URL": "https://www.elgato.com/en/gaming/stream-deck",
+  "Version": "1.0.0",
+  "OS": [
+    {
+      "Platform": "mac",
+      "MinimumVersion": "10.11"
+    },
+    {
+      "Platform": "windows",
+      "MinimumVersion": "10"
+    }
+  ],
+  "Software": {
+    "MinimumVersion": "4.1"
+  }
+}
